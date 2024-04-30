@@ -8,5 +8,40 @@
 </head>
 <body>
     <h1 class="texto-git">Primeiro Git</h1>
+
+    <form>
+        <fieldset>
+          <legend>Fruit juice size</legend>
+          <p>
+            <input type="radio" name="size" id="size_1" value="small" />
+            <label for="size_1">Small</label>
+          </p>
+          <p>
+            <input type="radio" name="size" id="size_2" value="medium" />
+            <label for="size_2">Medium</label>
+          </p>
+          <p>
+            <input type="radio" name="size" id="size_3" value="large" />
+            <label for="size_3">Large</label>
+          </p>
+        </fieldset>
+      </form>
+
+      <form action="/pagina-processa-dados-do-form" method="post">
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" />
+        </div>
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" />
+        </div>
+        <div>
+          <label for="msg">Mensagem:</label>
+          <textarea id="msg"></textarea>
+        </div>
+      </form>
+      
+      
 </body>
 </html>
