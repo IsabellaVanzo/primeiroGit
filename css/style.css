@@ -1,4 +1,8 @@
 .texto-git{
-    color: blueviolet;
-    font-size: medium;
+    color: rgb(43, 226, 217);
+    font-size: larger;
+}
+
+body{
+    background-color: darkcyan;
 }
